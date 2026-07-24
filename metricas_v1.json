@@ -1,0 +1,26 @@
+{
+    "versao": "v1",
+    "data_treinamento": "2026-07-24 23:24:20",
+    "modelo_escolhido": "KNeighborsRegressor",
+    "variaveis_preditores": [
+        "sqft_lot",
+        "floors",
+        "waterfront",
+        "view",
+        "sqft_basement",
+        "sqft_lot15",
+        "idade_imovel",
+        "foi_reformado"
+    ],
+    "numero_variaveis": 8,
+    "metricas": {
+        "MAE": 188226.99574369652,
+        "MSE": 94507068991.07536,
+        "RMSE": 307420.02047862037,
+        "R2": 0.37485696321730255
+    },
+    "tamanho_treino": 17290,
+    "tamanho_teste": 4323,
+    "random_seed": 42,
+    "escalonador": "StandardScaler"
+}
